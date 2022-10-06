@@ -1,0 +1,70 @@
+nav {
+    background:linear-gradient(to bottom right,#282828,#454545);
+    width:100vw;
+    height:calc(5vh + 57px);
+    top:0;
+    left:0;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-bottom:5px solid #ebeb4a;
+}
+body {
+    background:url(/Multimedia/background.png);
+}
+nav > div {
+    padding:20px;
+    color:white;
+    font-family:'Oswald',sans-serif;
+    font-size:40px;
+    align-items:center;
+    display:flex;
+}
+nav > div:hover {
+    background:#434343;
+    cursor:pointer;
+    color:#ebeb4a;
+}
+.title {
+    color:white;
+    text-align:center;
+    margin-top:130px;
+    font-family:'Oswald',sans-serif;
+    font-size:80px;
+    text-decoration:underline #ebeb4a;
+    margin-bottom:-200px;
+}
+.photos {
+    display:flex;
+    margin-top:30vh;
+    display:flex;
+    justify-content:center;
+}
+.photos > img {
+    transition:0.8s;
+    width:180px;
+    height:512px;
+    object-fit:cover;
+    filter:grayscale(75%);
+    border-bottom:5px solid #ebeb4a;
+    border-top:5px solid #ebeb4a;
+    z-index:0;
+    box-shadow:0px 0px 100px black;
+    background:#ebeb4a;
+}
+.photos > img:hover {
+    transition:0.8s;
+    width:512px;
+    height:512px;
+    filter:grayscale(0%);
+    z-index:1;
+    box-shadow:0px 0px 60px black;
+    border:5px solid #ebeb4a;
+}
+.common {
+    border-left:5px solid #ebeb4a;
+}
+.mythic {
+    border-right:5px solid #ebeb4a;
+}
