@@ -11,7 +11,7 @@ nav {
     border-bottom:5px solid #ebeb4a;
 }
 body {
-    background:url(./Multimedia/background.png);
+    background:url(/Multimedia/background.png);
 }
 nav > div {
     padding:20px;
